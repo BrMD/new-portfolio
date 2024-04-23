@@ -1,0 +1,8 @@
+{
+  "home": {
+    "menu": ["Home", "Stack", "Experiencia", "Projetos"],
+    "home_phrase": "Olá meu nome é Matheus Dorigon, e sou um ",
+    "dev": "Desenvolvedor",
+    "special_word": "FullStack"
+  }
+}
