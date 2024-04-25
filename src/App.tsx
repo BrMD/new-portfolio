@@ -1,12 +1,18 @@
+import { useState } from "react";
+
 import initFunction from "helpers/init";
-import Home from "pages/Home";
+import Menu from "components/Menu";
+import HOCpages from "components/HOCpages";
+import "styles/layout.css";
 
 function App() {
   initFunction();
+  const [option, setOption] = useState("Experience");
   return (
-    <>
-      <Home />
-    </>
+    <div className="layout">
+      <Menu />
+      <HOCpages option={option} />
+    </div>
   );
 }
 

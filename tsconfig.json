@@ -11,8 +11,7 @@
       "@/hooks/*": ["/hooks/*"],
       "@/intl/*": ["/intl/*"],
       "@/pages/*": ["/pages/*"],
-      "@/styles/*": ["/styles/*"],
-      "@/types/*": ["/types/*"]
+      "@/styles/*": ["/styles/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,
@@ -26,7 +25,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["./src/types/index.d.ts"]
   },
   "include": ["src"]
 }

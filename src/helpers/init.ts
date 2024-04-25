@@ -4,7 +4,8 @@ import { en, pt } from "../intl";
 
 const initFunction = () => {
   i18next.init({
-    lng: getUserLanguage(), // if you're using a language detector, do not define the lng option
+    lng: getUserLanguage(),
+    fallbackLng: "en",
     debug: true,
     resources: {
       en: {
